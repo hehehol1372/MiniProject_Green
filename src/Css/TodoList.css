@@ -1,0 +1,38 @@
+
+.todo-list {
+    list-style: none;
+}
+
+.todo-list li {
+    margin-left: 1.5em; /* 왼쪽 여백 설정 */
+    padding-left: 2em;  /* 왼쪽 패딩 설정 */
+    text-indent: -2em;  /* 첫 줄 들여쓰기를 반대로 설정하여 아이콘/체크박스 위치 조정 */
+    list-style: none;   /* 기본 목록 스타일 제거 */
+}
+
+.input-text {
+}
+.center-top-container {
+    position: absolute;   /* 상대적인 위치 설정 */
+    top: 10em;               /* 상단에서부터의 거리 */
+    left: 0;              /* 왼쪽 끝에서부터 시작 */
+    right: 0;             /* 오른쪽 끝에서부터 시작 */
+    text-align: center;   /* 텍스트(내부 요소) 중앙 정렬 */
+}
+
+.custom-button {
+    margin-left: 1.5em;
+    width: 1.2em;  /* 너비 설정 */
+    height: 1.2em; /* 높이 설정 */
+}
+
+.save-icon {
+    margin-left: 0.5em;
+    width: 1.2em;
+    height: 1.2em;
+}
+.delete-icon {
+    margin-left: 0.5em;
+    width: 1.2em;
+    height: 1.2em;
+}
